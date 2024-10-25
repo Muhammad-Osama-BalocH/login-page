@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gilroy', sans-serif; /* Added fallback font */
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: cornflowerblue;
+}
+
+#card {
+    border-radius: 10px;
+    height: 400px;
+    width: 350px;
+    background-color: #fff;
+    padding: 30px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Added a subtle shadow */
+}
+
+#card img {
+    height: 50%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 10px;
+}
+
+#card h1 {
+    font-size: 1.5rem; /* Using rem for scalable font size */
+    margin: 10px 0;
+}
+
+#card h5 {
+    font-size: 1.25rem;
+    color: aquamarine;
+    margin-bottom: 20px;
+}
+
+#card button {
+    background-color: cadetblue;
+    color: #fff;
+    font-weight: 700;
+    padding: 12px 20px;
+    border-radius: 5px;
+    border: none;
+    margin: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Added a smooth transition */
+}
+
+#card button:hover {
+    background-color: darkcyan; /* Darker color on hover */
+}
